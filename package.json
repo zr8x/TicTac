@@ -1,0 +1,21 @@
+{
+  "name": "tictac",
+  "version": "1.0.0",
+  "description": "School communicator",
+  "license": "ISC",
+  "author": "zr8x",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@digitalsamba/embedded-sdk": "^0.0.52",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "webrtc": "^1.14.1"
+  }
+}
