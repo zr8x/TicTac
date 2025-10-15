@@ -18,11 +18,30 @@
     />
   </head>
 
-  <body class="bg-dark text-white text-center">
-
+  <body>
+    <div class="text-center container">
       <h1>TicTac</h1>
     
       <iframe width="100%" height="600" src="https://tictac.digitalsamba.com/tictac" title="Video call" frameborder="0" allow="microphone; camera; autoplay; display-capture"></iframe>
 
+      <div class="row">
+        <div class="bg-light text-black col-lg-6" id="video_well">
+          <ul>
+            <li>hi</li>
+            <li>hi</li>
+            <li>hi</li>
+            <li>hi</li>
+            <li>hi</li>
+          </ul>
+        </div>
+        <div class="bg-light text-black col-lg-6" id="chat_well">
+          <h2>Message Board</h2>
+          <ul class="text-start" id="chat_list"></ul>
+          <form id="chat_form">
+            <input type="text" placeholder="Hello!" id="chat_input"> <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
